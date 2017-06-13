@@ -22,7 +22,8 @@ The main aim of the appication is to analyse and implement the concepts of angul
 - Replace 'home' in the url that you will be directed to, with 'list'
 - That it!
 
-##Screenshots
+## Screenshots
+
 <img src="./screenshots/img.png" width="50%"> 
 <img src="./screenshots/img2.png" width="50%">
 <img src="./screenshots/img3.png" width="50%"> 
