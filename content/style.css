@@ -1,0 +1,64 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+  	margin-bottom: 80px;   
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	
+}
+.input{
+	padding: 9px;
+	font-size: 18px;
+	
+}
+
+
+/* Angular Animations*/
+
+main.ng-enter {
+	transition: 0.5s  linear  all;
+	opacity: 0;
+}
+main.ng-enter.ng-enter-active {
+	opacity: 1;
+}
+
+.fade{
+	opacity: 1;
+}
+
+.fade.ng-enter {
+	transition: 0.5s linear all;
+	opacity: 0;
+	transform: translateY(40px);
+	
+}
+.fade.ng-enter.ng-enter-active {
+	opacity: 1;
+	transform: translateY(0);
+	
+}
+
+
+.fade.ng-leave {
+	transition: 0.5s linear all;
+	opacity: 1;
+}
+.fade.ng-leave.ng-leave-active {
+	opacity: 0;
+	transform: translateX(-40px);
+}
+.fade.ng-leave-stagger {
+	transition-delay: 0.2s;
+	transition-duration: 0;
+}
