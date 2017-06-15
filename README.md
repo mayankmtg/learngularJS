@@ -1,7 +1,7 @@
 # learngularJS
 <img src="./screenshots/angular.jpg" width="30%"> 
 
-# UDAR
+# What is it?
 Basic listing application. Uses angularJS and its MVC framework throughout the web application.
 
 ## Aim
