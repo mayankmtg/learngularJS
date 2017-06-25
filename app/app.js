@@ -32,7 +32,7 @@ LearngularJS.controller('myController', ['$scope','$http', function($scope, $htt
 
 	};
 	$scope.messages=[];
-	$http.get("server/content.json").then(function(response){
+	$http.get("./server/content.json").then(function(response){
 		$scope.messages=response.data;
 	});
 
