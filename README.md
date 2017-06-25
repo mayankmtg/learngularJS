@@ -21,6 +21,7 @@ The main aim of the appication is to analyse and implement the concepts of angul
 - Host the application on any server 
 - Replace 'home' in the url that you will be directed to, with 'list'
 - That it!
+- Hosted using GitHub Pages: https://mayankmtg.github.io/learngularJS/#!/list
 
 ## Screenshots
 
